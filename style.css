@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+}
+div
+{
+    border-radius: 5px;
+    }
+#header
+{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 25%;
+    background-color: #668284;
+    padding-left: 15px;
+    }
+    .photo{
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: #000 solid 2px;
+        
+    }
+    span{
+        font-size: 19px;
+        text-align: center;
+        color: rgb(20, 34, 18);
+    }
+    .comptences{
+        font-size: 9px;
+    }
+.right
+{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    float: right;
+    background-color: #b8c7f0;
+    background-attachment: fixed;
+    padding-left: 15px;
+    }
+    
+#footer
+{
+    height:40px;
+    clear:both;
+    position: relative;
+    background-color: #C1E3E1;
+    }
+    
+h3
+{
+    text-decoration: underline;
+    font-size: x-large;
+    text-align: center;
+    }
+
+.job-title
+{
+    font-weight: bold;
+    font-size: large;
+    }
+#course-name
+{
+    font-weight:bold;
+    }
+
+#company-name
+{
+    font-size: large;
+    }
+#job-title
+{
+  font-size: large;
+    }
+.job-duration
+{
+    float:right;
+    }
+#heading
+{
+    font-weight:bold;
+    }
